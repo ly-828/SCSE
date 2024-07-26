@@ -1,5 +1,5 @@
 # SCSE
-The implement of SCSE: Progressive Skip Connection Improves Consistency of Diffusion-based Speech Enhancement
+The implementation of SCSE: Progressive Skip Connection Improves Consistency of Diffusion-based Speech Enhancement, submitted to Signal Processing Letters for review.
 
 ## Brief
 SCSE is inspired by techniques addressing posterior collapse in variational autoencoders and explores the use of skip connections within diffusion-based SE models. Adding skip connections alone proved ineffective, so we modified the training objective to predict clean speech instead of Gaussian noise. We also propose a progressive skip connection strategy to maintain mutual information between the input and output. Our approach demonstrates good and consistent performance on two standard datasets in both seen and unseen scenarios.
